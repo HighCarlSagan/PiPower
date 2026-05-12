@@ -7,11 +7,6 @@
 [![Target](https://img.shields.io/badge/target-Pi_4_%2F_Pi_5-c51a4a)](https://www.raspberrypi.com/)
 [![Designed With](https://img.shields.io/badge/Open_Hardware-OSHW-orange)](https://www.oshwa.org/)
 
-<p align="center">
-  <em>TODO: hero shot — board render + a populated photo inside the aluminium case</em><br/>
-  <code>docs/photos/hero.jpg</code>
-</p>
-
 ---
 
 > **Project status: design doc, no hardware yet.**
