@@ -1,0 +1,19 @@
+# KiCad
+*-backups/
+*.bak
+*.kicad_pcb-bak
+*.sch-bak
+*.kicad_sch-bak
+fp-info-cache
+.history/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
