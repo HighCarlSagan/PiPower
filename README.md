@@ -334,4 +334,4 @@ Most folders empty for now. They populate as the project moves through phases.
 
 ## Author
 
-**Mak (Mayank Shrivastava)** — [GitHub @HighCarlSagan](https://github.com/HighCarlSagan) · [highcarlsagan.dev](https://highcarlsagan.dev)
+**Mayank S (HighCarlSagan)** — [GitHub @HighCarlSagan](https://github.com/HighCarlSagan) · [highcarlsagan.dev](https://highcarlsagan.dev)
