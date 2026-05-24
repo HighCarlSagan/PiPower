@@ -30,27 +30,27 @@ Source: [`docs/requirements.pdf`](docs/requirements.pdf) (preliminary, v0).
 
 | # | Requirement | Target | Status |
 |---|---|---|---|
-| 1 | Compatible with Pi 4 and Pi 5 | Both, same board | 🎯 Pin compatibility to be verified |
-| 2 | Output voltage | 5 V ±5% all loads | 🎯 Spec'd |
-| 3 | Continuous output current | ≥3 A | 🎯 Spec'd |
-| 4 | Peak transient current | ≥4 A | 🎯 Spec'd |
-| 5 | Output ripple | <100 mV pk-pk | 🎯 Spec'd |
-| 6 | Switchover delay (AC → battery) | 0 ms (true load-share, no relay) | 🎯 Spec'd — non-negotiable |
-| 7 | Battery topology | Open | ⏳ TBD — single-cell + boost vs. 2S + buck |
-| 8 | Battery format | Replaceable, common cell | 🎯 18650 or 21700 (per requirements doc) |
-| 9 | Overcharge protection | ~4.2 V/cell | 🎯 Spec'd |
-| 10 | Deep discharge cutoff | 2.8–3.0 V/cell | 🎯 Spec'd |
-| 11 | Thermal monitoring | NTC on battery | 🎯 Spec'd |
-| 12 | I²C telemetry to Pi | V<sub>bat</sub>, I<sub>chg</sub>, I<sub>dis</sub>, V<sub>in</sub> presence | 🎯 Spec'd |
-| 13 | Fuel gauge (state of charge) | Optional | 🎯 Stretch goal |
-| 14 | Input | 5 V 3 A adapter (official Pi supply) via barrel jack and/or USB-C | ⏳ TBD — connector choice open |
-| 15 | Output to Pi | GPIO header (pogo pins) and/or USB-C-out | ⏳ TBD — output topology open |
-| 16 | Form factor | Full-size HAT, 65 × 56 mm, 2 × 20 GPIO | 🎯 Locked |
-| 17 | Thermal coexistence | Fits inside Argon ONE / GeeekPi / DeskPi class metal case alongside Pi | 🎯 Locked |
-| 18 | Protection | Reverse polarity, ESD (TVS), input polyfuse, short-circuit | 🎯 Spec'd |
-| 19 | Graceful shutdown trigger | Pi receives shutdown signal before battery cutoff | 🎯 Spec'd |
-| 20 | Charger | CC/CV, configurable I<sub>in</sub> limit, simultaneous load + charge | 🎯 Spec'd |
-| 21 | Charger IC | Open | ⏳ TBD — research pending |
+| 1 | Compatible with Pi 4 and Pi 5 | Both, same board | Pin compatibility to be verified |
+| 2 | Output voltage | 5 V ±5% all loads | Spec'd |
+| 3 | Continuous output current | ≥3 A | Spec'd |
+| 4 | Peak transient current | ≥4 A | Spec'd |
+| 5 | Output ripple | <100 mV pk-pk | Spec'd |
+| 6 | Switchover delay (AC → battery) | 0 ms (true load-share, no relay) | Spec'd — non-negotiable |
+| 7 | Battery topology | Open | TBD — single-cell + boost vs. 2S + buck |
+| 8 | Battery format | Replaceable, common cell | 18650 or 21700 (per requirements doc) |
+| 9 | Overcharge protection | ~4.2 V/cell | Spec'd |
+| 10 | Deep discharge cutoff | 2.8–3.0 V/cell | Spec'd |
+| 11 | Thermal monitoring | NTC on battery | Spec'd |
+| 12 | I²C telemetry to Pi | V<sub>bat</sub>, I<sub>chg</sub>, I<sub>dis</sub>, V<sub>in</sub> presence | Spec'd |
+| 13 | Fuel gauge (state of charge) | Optional | Stretch goal |
+| 14 | Input | 5 V 3 A adapter (official Pi supply) via barrel jack and/or USB-C | TBD — connector choice open |
+| 15 | Output to Pi | GPIO header (pogo pins) and/or USB-C-out | TBD — output topology open |
+| 16 | Form factor | Full-size HAT, 65 × 56 mm, 2 × 20 GPIO | Locked |
+| 17 | Thermal coexistence | Fits inside Argon ONE / GeeekPi / DeskPi class metal case alongside Pi | Locked |
+| 18 | Protection | Reverse polarity, ESD (TVS), input polyfuse, short-circuit | Spec'd |
+| 19 | Graceful shutdown trigger | Pi receives shutdown signal before battery cutoff | Spec'd |
+| 20 | Charger | CC/CV, configurable I<sub>in</sub> limit, simultaneous load + charge | Spec'd |
+| 21 | Charger IC | Open | TBD — research pending |
 
 ---
 
